@@ -1,18 +1,9 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
-//PENSJOSS:)
 
 public class Dialogue : MonoBehaviour
 {
-    
-    /*
-    Hallo ges, kalau kalian bertanya-tanya ini apa? ini adalah script untuk sistem dialog ygy.
-    Cara kerjanya gimana banh? sebenarnya simple, aku bikin sebuah array string yang isinya teks dialognya.
-    Kalian coba liat variabel "lines", nah disitu semua teksnya, cara nambah, ngisi, dan mengurangi nanti LEWAT INSPECTOR.
-    Yang mana teks yang ditampilin dan yang tidak, ditentukan pakai variabel "index" kalau index 4 maka yang tampil dialog ke-4.
-    Maaf kalau mucho texto, miawww:3
-    */
 
     public TextMeshProUGUI textComponent;
     [Header ("===== Dialogue ======")]
